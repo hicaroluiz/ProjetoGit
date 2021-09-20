@@ -1,0 +1,233 @@
+header {
+	background: black;
+	height: 150px	
+}
+
+.cabecalho {
+	width: 940px;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	top: 10px;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 65px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.banner {
+	width: 100%;
+	height: 400px;
+	background-color: grey;
+}
+
+
+
+.titulo-principal {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.imagemtreino {
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.principal {
+	padding: 3em 0;
+	margin: 0 auto;
+	background: #708090;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	
+
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#708090,#4F4F4F);
+	
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapa-conteudo {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.beneficios {
+	padding: 3em;
+	background-color: #4F4F4F;
+	
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5; 
+}
+
+.itens:first-child {
+	font-weight: bold;	
+}
+
+.itens:before {
+	content: "★";
+}
+
+.imagem-beneficios {
+	width: 60%;
+	transition: 200ms;
+	opacity: 1;
+	box-shadow: 10px 10px black;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.9;
+}
+
+
+.video {
+	text-align: center;
+	padding: 3em 0;
+	
+}
+
+
+footer {
+	background: black;
+	text-align: center;
+}
+
+.rodape {
+	width: 940px;
+	margin: 0 auto;
+	position: relative
+}
+
+.foto-rodape {
+	display:block;
+	height: 125px;
+	width: 125px;
+	padding-top: 10px;
+	margin: 0 auto;
+
+}
+
+.copyright {
+	color: white;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.nopain {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-decoration: underline;
+	position: absolute;
+	top: 70px;
+	left: 150px;
+	background: black;	
+}
+
+.nogain {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-decoration: underline;
+	position: absolute;
+	top: 70px;
+	right: 150px;
+	background: black;	
+}
+
+.nopainagain:hover p {
+	color: #C78C19;
+
+}
+
+@media screen and (max-width: 400px) {
+	.cabecalho, .principal, .conteudo-beneficios, .mapa-conteudo, .rodape {
+		width: auto;
+	} 
+
+	h1, .foto-rodape {
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.lista-beneficios, .itens-beneficos, .video {
+		width: 100%;
+	}
+
+	.nopain {
+		font-size: 10px;
+		left: 10;
+
+	}
+
+	.nogain {
+		font-size: 10px;
+		right: 10;
+
+	}
+}
+
+
